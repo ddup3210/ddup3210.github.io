@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-04-16T14:01:14.357Z</updated>
+  <updated>2023-04-21T08:10:15.280Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>龙芯物联网系统问题解决</title>
+    <link href="http://example.com/2023/04/21/%E9%BE%99%E8%8A%AF%E7%89%A9%E8%81%94%E7%BD%91%E7%B3%BB%E7%BB%9F%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
+    <id>http://example.com/2023/04/21/%E9%BE%99%E8%8A%AF%E7%89%A9%E8%81%94%E7%BD%91%E7%B3%BB%E7%BB%9F%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/</id>
+    <published>2023-04-21T08:04:00.000Z</published>
+    <updated>2023-04-21T08:10:15.280Z</updated>
+    
+    <content type="html"><![CDATA[<p>修复问题记录<br>4.21<br>屏幕无法触屏以及qt界面显示大小无法控制<br>改进措施：更新uboot以及文件系统，最新版本更新位置不对需要用旧版本rootfs包，拔掉跳线帽，用U盘更新，tftps更新会出现问题<br>开机自动启动默认程序<br>解决措施：找到boot_run.sh文件注释掉相关代码</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;修复问题记录&lt;br&gt;4.21&lt;br&gt;屏幕无法触屏以及qt界面显示大小无法控制&lt;br&gt;改进措施：更新uboot以及文件系统，最新版本更新位置不对需要用旧版本rootfs包，拔掉跳线帽，用U盘更新，tftps更新会出现问题&lt;br&gt;开机自动启动默认程序&lt;br&gt;解决措施：找到boo</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>MQTT</title>
+    <link href="http://example.com/2023/04/16/MQTT/"/>
+    <id>http://example.com/2023/04/16/MQTT/</id>
+    <published>2023-04-16T14:25:37.000Z</published>
+    <updated>2023-04-16T14:25:37.392Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>firstblog</title>
